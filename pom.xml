@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.smart</groupId>
+    <artifactId>spring4-example</artifactId>
+    <version>1.0</version>
+    <name>spring4.x企业开发实战练习</name>
+    <description>Spring4.x企业开发实战练习</description>
+
+    <modules>
+        <module>chapter2</module>
+        <module>chapter3</module>
+        <module>chapter4</module>
+        <module>chapter5</module>
+        <module>chapter6</module>
+        <module>chapter7</module>
+    </modules>
+
+    <properties>
+        <file.encoding>UTF-8</file.encoding>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <mysql.version>5.1.29</mysql.version>
+        <servlet.version>3.0-alpha-1</servlet.version>
+        <aspectj.version>1.8.1</aspectj.version>
+        <commons-codec.version>1.9</commons-codec.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
+        <jetty.version>8.1.8.v20121106</jetty.version>
+        <slf4j.version>1.7.5</slf4j.version>
+        <testng.version>6.8.7</testng.version>
+    </properties>
+</project>
